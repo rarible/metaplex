@@ -959,7 +959,7 @@ function programCommand(name: string) {
     .option(
       '-e, --env <string>',
       'Solana cluster env name',
-      'devnet', //mainnet-beta, testnet, devnet
+      'local', //mainnet-beta, testnet, devnet
     )
     .requiredOption('-k, --keypair <path>', `Solana wallet location`)
     .option('-l, --log-level <string>', 'log level', setLogLevel)

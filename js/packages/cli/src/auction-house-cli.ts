@@ -1556,7 +1556,7 @@ function programCommand(name: string) {
     .option(
       '-e, --env <string>',
       'Solana cluster env name',
-      'devnet', //mainnet-beta, testnet, devnet
+      'local', //mainnet-beta, testnet, devnet
     )
     .option(
       '-k, --keypair <path>',
